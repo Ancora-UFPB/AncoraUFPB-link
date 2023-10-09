@@ -5,24 +5,22 @@ body, h1, h2, p, ul {
     
 }
 
-
 header {
     background-color: #223d67;
-    /*background-image: url(ancbackgrond.png);
-    background-size: cover;*/
     color: #cecfe2;
     text-align: center;
-    padding: 110px 0;
+    padding: 100px 0;
 }
 
-header h1 {
+header h1 { /*Parte que cuida do TÍTULO*/
     font-size: 5em;
 }
-.imagemlogo {
-    position: absolute;
-    left: 10px;
-    top: 10px; 
+.imagemlogo { /*Parte que cuida do logo da âncora*/
+    position: relative;
     width: 100px;
+    border-radius: 40%;
+    overflow: hidden;
+    border: 2px solid #cecfe2;
 }
 
 
@@ -30,23 +28,29 @@ main {
     padding: 50px;
 }
 
-.vem{
-    text-align: center;
-    padding-top: 50px;
-}
-
-.sec1 {
+.sec1 { /*Parte que cuida das informações*/
     max-width: 800px;
     margin: 0 auto;
+    
 }
-
-.sec2 {
+.vem{ /*Parte que cuida do "Vem pro anc"*/
     text-align: center;
-    padding-top: 50px;
-    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 45px;
+
 }
 
-a {
+.sec2 { /*Parte que cuida do mapa*/
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #cecfe2;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+
+a { /*Parte que cuida do link do ancoinsta*/
     color: #223d67;
     text-decoration: none;
     font-weight: bold;
@@ -56,7 +60,7 @@ a:hover{
 }
 
 
-footer {
+footer { /*Rodapééé*/
     background-color: #223d67;
     color: #fff;
     text-align: center;
